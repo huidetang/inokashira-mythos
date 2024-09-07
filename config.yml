@@ -22,12 +22,12 @@ language: ja
 
 # 書名
 # 読みを入れる例 booktitle: {name: "Re:VIEW EPUBサンプル", file-as: "リビューイーパブサンプル"}
-booktitle: "井の頭文芸部　本文テンプレート"
-subtitle: "縦書き用"
+booktitle: "イノカシラ神話体系"
+subtitle: "並行現実小説集 総集編・一"
 
 # 著者名。「, 」で区切って複数指定できる
 # 読みを入れる例 aut: [{name: "青木峰郎", file-as: "アオキミネロウ"}, {name: "武藤健志", file-as: "ムトウケンシ"}, {name: "高橋征義", file-as: "タカハシマサヨシ"}, {name: "角征典", file-as: "カドマサノリ"}]
-aut: ["るいざ・しゃーろっと"]
+aut: [{name: "るいざ・しゃーろっと", file-as: "ルイザ・シャーロット"}, {name: "sun＠メタバース小説家", file-as: "サン＠メタバースショウセツカ"}]
 
 # 以下はオプション
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
@@ -69,12 +69,12 @@ a-pbl: 井の頭文芸部
 contact: "るいざ・しゃーろっと < louisa.vrc@gmail.com >"
 
 # 刊行日(省略した場合は実行時の日付)
-date: 2024-09-01
+date: 2024-12-01
 # 発行年月。YYYY-MM-DD形式による配列指定。省略した場合はdateを使用する
 # 複数指定する場合は次のように記述する
 # [["初版第1刷の日付", "初版第2刷の日付"], ["第2版第1刷の日付"]]
 # 日付の後ろを空白文字で区切り、任意の文字列を置くことも可能。
-history: [["二〇二四年九月一日"]]
+history: [["二〇二四年十二月一日"]]
 # 権利表記(配列で複数指定可)
 rights: (C) 二〇二四 井の頭文芸部
 # description: 説明
@@ -260,7 +260,8 @@ imgmath_options:
   # pdfcrop_pixelize_cmd: "mv %i %o"
 
 # EPUBにおけるページ送りの送り方向、page-progression-directionの値("ltr"|"rtl"|"default")
-direction: "ltr" # 横書き用
+# ここでは指定しない
+# direction: "ltr" # 横書き用
 # direction: "rtl" # 縦書き用
 
 # EPUBのOPFへの固有の追加ルール
