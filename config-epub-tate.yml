@@ -8,6 +8,9 @@ coverimage: frontcover.png
 epubmaker:
   cover_linear: yes
 
+# 縦書き
+direction: "rtl"
+
 # 裏表紙を作る
 backcover: backcover.xhtml
 
