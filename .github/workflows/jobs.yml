@@ -184,7 +184,7 @@ jobs:
       - name: 成果物のアップロード
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ format('inokashira-template_{0}_{1}', 'print-pdf-no-bleed', env.MUKI, steps.date.outputs.date) }}
+          name: ${{ format('inokashira-template_{0}_{1}_{2}', 'print-pdf-no-bleed', env.MUKI, steps.date.outputs.date) }}
           path: book.pdf
 
   ebook-pdf:

@@ -2,6 +2,9 @@
 # 元々の設定ファイルから項目を継承する
 inherit: ["config.yml"]
 
+# おまけコンテンツ入り
+catalogfile: catalog-omake.yml
+
 # 横書き
 direction: "ltr"
 
