@@ -21,8 +21,8 @@ backcover: backcover.xhtml
 # XHTMLなので、編集すれば自前の大扉が入る
 titlefile: title.xhtml
 
-# 奥付は自作したXMTMLファイルを使う
-colophon: colophon.xhtml
+# 奥付はデフォルトの物を使用する
+colophon: true
 
 # 著者紹介は自作したXMTMLファイルを使う
 profile: profile.xhtml
