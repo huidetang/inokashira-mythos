@@ -27,3 +27,5 @@ colophon: true
 # 著者紹介は自作したXMTMLファイルを使う
 profile: profile.xhtml
 profiletitle: 著者紹介
+
+debug: true
