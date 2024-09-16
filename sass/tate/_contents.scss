@@ -28,6 +28,13 @@ div.image {
     writing-mode: horizontal-tb;
     -webkit-writing-mode: horizontal-tb;
     -epub-writing-mode: horizontal-tb;
+
+    & > a {
+      border-right: none;
+      padding-right: 0;
+      border-bottom: 1px dashed;
+      padding-bottom: 3px;
+    }
   }
 }
 

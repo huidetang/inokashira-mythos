@@ -15,7 +15,7 @@ cover: false
 titlefile: title.xhtml
 
 # 奥付はデフォルトの物を使用する
-colophon: true
+colophon: colophon.xhtml
 
 # 著者紹介は自作したXMTMLファイルを使う
 profile: profile.xhtml
