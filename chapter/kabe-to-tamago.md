@@ -2,7 +2,7 @@
 
 ## はじめに
 
-この記事は[壁 Advent Calendar 2023](https://adventar.org/calendars/9082)の<span class="tcy">25</span>日目の記事です。
+この記事は[壁 Ａｄｖｅｎｔ Ｃａｌｅｎｄｅｒ ２０２３](https://adventar.org/calendars/9082)の<span class="tcy">25</span>日目の記事です。
 
 ## 自己紹介
 
