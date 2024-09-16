@@ -51,22 +51,13 @@ pre {
   margin: 0 auto;
   padding: 1rem;
   box-decoration-break: clone;
-  float: top;
 
   code {
     border: 1px #aaa solid;
     border-radius: 4px;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
     font-family: "Cica";
-    transform: scale(0.8, 1);
-    transform-origin: top left;
-    width: 125%;
-  }
-
-  &::after {
-    content:'';
-    display: block; 
-    clear:both;
+    max-width: 100%;
   }
 }
 
