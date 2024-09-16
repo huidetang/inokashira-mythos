@@ -8,11 +8,11 @@ direction: "ltr"
 # 印刷所の名前を設定する
 prt: ○○印刷所
 
-# 表紙と裏表紙は作らない
-cover: false
+# 表紙と裏表紙は作らないが、そのかわりに大扉を入れる
+cover: title.xhtml
 
-# 大扉は画像で作る
-titlefile: title.xhtml
+# 大扉としては入れない
+titlepage: false
 
 # 奥付はデフォルトの物を使用する
 colophon: colophon.xhtml

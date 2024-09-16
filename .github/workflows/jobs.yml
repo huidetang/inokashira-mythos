@@ -131,7 +131,7 @@ jobs:
       - name: 画像白黒化のログ確認
         run: cat .grayscaling.log
       - name: PDFの生成
-        run: REVIEW_VSCLI_OPTIONS="--timeout 600" REVIEW_CONFIG_FILE=config-print-tate.yml REVIEW_VSCLI_USESANDBOX=true REVIEW_VSCLI_GRAYSCALE=true bundle exec rake vivliostyle
+        run: REVIEW_VSCLI_OPTIONS="--timeout 600" REVIEW_CATALOG_FILE=catalog-omake.yml REVIEW_CONFIG_FILE=config-print-tate.yml REVIEW_VSCLI_USESANDBOX=true REVIEW_VSCLI_GRAYSCALE=true bundle exec rake vivliostyle
       - name: 成果物のアップロード
         uses: actions/upload-artifact@v4
         with:
@@ -174,7 +174,7 @@ jobs:
       - name: 画像白黒化のログ確認
         run: cat .grayscaling.log
       - name: PDFの生成
-        run: REVIEW_VSCLI_OPTIONS="--timeout 600" REVIEW_CONFIG_FILE=config-print-${{ env.MUKI }}.yml EVIEW_VSCLI_USESANDBOX=true REVIEW_VSCLI_GRAYSCALE=true bundle exec rake vivliostyle
+        run: REVIEW_VSCLI_OPTIONS="--timeout 600" REVIEW_CATALOG_FILE=catalog-omake.yml REVIEW_CONFIG_FILE=config-print-${{ env.MUKI }}.yml EVIEW_VSCLI_USESANDBOX=true REVIEW_VSCLI_GRAYSCALE=true bundle exec rake vivliostyle
       - name: 成果物のアップロード
         uses: actions/upload-artifact@v4
         with:
