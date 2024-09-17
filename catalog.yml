@@ -1,61 +1,47 @@
 PREDEF:
   - dedication.re
+  - dedication1.re
+  - dedication2.re
+  - dedication3.re
+  - bunfuri-tokyo-37.re
+  - VKetReal2023Winter.re
+  - kanren.re
 
 CHAPS:
-  - ＶＲ小説作品集第一巻収録:
-    - dedication1.re
-    - saigo-no-maru.re
-    - seiya.re
-    - kibou.re
-    - fukkatsu.re
-    - yuki-no-seida.re
-    - wii-sama.re
-    - kabe.re
-    - rusk.re
-    - yamai.re
-    - wakimichi.re
-    - christmas.re
-    - tomoni.re
-    - bakhmut.re
-    - ukraine.re
-    - postscript1.re
-  - 並行現実小説集第二巻収録:
-    - dedication2.re
-    - bouquet.re
-    - kuruna.re
-    - outoh-ki.re
-    - kawaii.re
-    - hokkai.re
-    - natsu-no-enishi.re
-    - yurodivy.re
-    - postscript2.re
-  - 並行現実小説集第三巻収録: 
-    - dedication3.re
-    - are.re
-    - tsugaru.re
-    - one-year-period.re
-    - watashi-no-yume.re
-    - fuyu-no-shukusai.re
-    - sandaibanashi.re
-    - kinsho.re
-    - kaguya.re
-    - postscript3.re
-  - 関連作品のお知らせ:
-    - kanren.re
-  - 各イベントのペーパー:
-    - bunfuri-tokyo-37.re
-    - VKetReal2023Winter.re
-  - るいざ・しゃーろっと論集:
-    - VRCHigh.re
-    - novel.re
-    - sekairyoko.re
-    - inokashira.re
-    - mirai.re
-    - inokashira-rusk-naze.re
-    - kabe-to-tamago.re
-    - ekkyo.re
+  - saigo-no-maru.re
+  - seiya.re
+  - kibou.re
+  - fukkatsu.re
+  - yuki-no-seida.re
+  - wii-sama.re
+  - kabe.re
+  - rusk.re
+  - yamai.re
+  - wakimichi.re
+  - christmas.re
+  - tomoni.re
+  - bakhmut.re
+  - ukraine.re
+  - bouquet.re
+  - kuruna.re
+  - outoh-ki.re
+  - kawaii.re
+  - hokkai.re
+  - natsu-no-enishi.re
+  - yurodivy.re 
+  - are.re
+  - tsugaru.re
+  - one-year-period.re
+  - watashi-no-yume.re
+  - fuyu-no-shukusai.re
+  - sandaibanashi.re
+  - kinsho.re
+  - kaguya.re
 
 APPENDIX:
 
 POSTDEF:
+  - postscript1.re
+  - postscript2.re
+  - postscript3.re
   - postscript.re
