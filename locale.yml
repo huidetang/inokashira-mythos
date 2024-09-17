@@ -1,2 +1,3 @@
 locale: ja
-chapter: 第%pJ章
+part: 第%pJ部
+chapter: ""
