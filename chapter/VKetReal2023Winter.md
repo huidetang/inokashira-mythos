@@ -13,6 +13,6 @@
 　
 
 <div class="flushright">
-2023年<span class="tcy">12</span>月<span class="tcy">16</span>日<br/>
+２０２３年<span class="tcy">12</span>月<span class="tcy">16</span>日<br/>
 るいざ・しゃーろっと
 </div>
