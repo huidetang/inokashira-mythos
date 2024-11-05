@@ -235,8 +235,6 @@ jobs:
         run: pnpm run style:${{ env.SIZE }}-${{ env.MUKI }}-no-bleed
       - name: Rubyのパッケージをインストール
         run: bundle install
-      - name: Playwrightのインストール
-        run: ./node_modules/.bin/playwright install --with-deps
       - name: PDFの生成
         run: REVIEW_CONFIG_FILE=config-udonbook-${{ env.MUKI }}.yml REVIEW_VSCLI_USESANDBOX=true REVIEW_VSCLI_OPTIONS="--timeout 900" bundle exec rake vivliostyle
       - name: 画像の生成
