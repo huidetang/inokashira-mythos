@@ -24,6 +24,8 @@
     "style:a4-yoko-no-bleed": "sass ./sass/vivliostyle-a4-yoko-no-bleed.scss style.css",
     "style:a6-yoko-no-bleed": "sass ./sass/vivliostyle-a6-yoko-no-bleed.scss style.css",
     "style:b5-yoko-no-bleed": "sass ./sass/vivliostyle-b5-yoko-no-bleed.scss style.css",
+    "style:udonbooks-tate": "sass ./sass/vivliostyle-udonbooks-tate.scss style.css",
+    "style:udonbooks-yoko": "sass ./sass/vivliostyle-udonbooks-yoko.scss style.css",
     "style": "npm run style:a6"
   },
   "repository": {

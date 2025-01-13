@@ -1,14 +1,14 @@
 @charset "UTF-8";
-@import 'tate/fonts';
+@import 'yoko/fonts';
 
 // 基本フォントサイズ
-$base-font-size: 9pt;
+$base-font-size: 10pt;
 // 基本行送り
-$base-line-height: 1.6rem;
+$base-line-height: 1.4rem;
 
 
 //組み方向
-$writing-mode: vertical-rl;
+$writing-mode: horizontal-tb;
 
 // 行数
 $lines: 22;
@@ -19,9 +19,9 @@ $ten: 17mm;
 // 地
 $chi: 15mm;
 // 小口
-$koguchi: 14mm;
+$koguchi: 12mm;
 // ノド
-$nodo: 14mm;
+$nodo: 18mm;
 
 //紙のサイズ
 $paper-size: a5;
@@ -43,10 +43,10 @@ $content-width: $paper-width - $koguchi - $nodo;
 $content-height: $paper-height - $ten - $chi;
 
 // ページのスタイル定義
-@import 'tate/format-no-bleed';
+@import 'yoko/format';
 // タイポグラフィのスタイル定義
-@import 'tate/typography';
+@import 'yoko/typography';
 // コンテンツのスタイル定義
-@import 'tate/contents';
+@import 'yoko/contents';
 // シンタックスハイライト
 @import 'common/rouge';

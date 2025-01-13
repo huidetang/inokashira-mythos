@@ -19,9 +19,9 @@ $ten: 17mm;
 // 地
 $chi: 15mm;
 // 小口
-$koguchi: 12mm;
+$koguchi: 14mm;
 // ノド
-$nodo: 18mm;
+$nodo: 14mm;
 
 //紙のサイズ
 $paper-size: a5;
@@ -43,7 +43,7 @@ $content-width: $paper-width - $koguchi - $nodo;
 $content-height: $paper-height - $ten - $chi;
 
 // ページのスタイル定義
-@import 'tate/format';
+@import 'tate/format-no-bleed';
 // タイポグラフィのスタイル定義
 @import 'tate/typography';
 // コンテンツのスタイル定義

@@ -2,7 +2,7 @@
 @import 'tate/fonts';
 
 // 基本フォントサイズ
-$base-font-size: 9pt;
+$base-font-size: 8pt;
 // 基本行送り
 $base-line-height: 1.6rem;
 
@@ -24,14 +24,14 @@ $koguchi: 14mm;
 $nodo: 14mm;
 
 //紙のサイズ
-$paper-size: a5;
+$paper-size: a6;
 //塗り足しサイズ
 $bleed-size: 0;
 
 //紙の横幅
-$paper-width: 148mm;
+$paper-width: 105mm;
 //紙の縦幅
-$paper-height: 210mm;
+$paper-height: 148mm;
 //トンボ
 $marks: none;
 
